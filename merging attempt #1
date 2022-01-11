@@ -80,10 +80,7 @@ while cards_in_deck and life:
     c=Card(s,n)
     pen=turtle.Turtle()
     pen.hideturtle()
-    pen.clear()
     c.render(0,0,pen)
-    time.sleep(10)
-    pen.clear()
     c.print_card()
     #pen.speed(0)
     
@@ -92,6 +89,7 @@ while cards_in_deck and life:
 
     choice=input('Enter h for higher or l for lower: ')
     rand_card=random.choice(list(cards_in_deck.keys()))
+    pen.clear()
     if choice=='h' or choice=='H':
         if cards_in_stack[curr_card]<=cards_in_deck[rand_card]:
             print('You guessed correctly!')
