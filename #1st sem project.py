@@ -1,5 +1,5 @@
 #1st sem project
-#this code idea disbanded for OOPS logic code with same idea
+#note: this code idea disbanded for OOPS logic code with same idea
 import random
 h_ace=s_ace=d_ace=c_ace=1
 h_2=s_2=d_2=c_2=2
